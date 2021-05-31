@@ -11,6 +11,7 @@ File: Layout CSS
 
 @import url("fontawesome-free/css/fontawesome-all.min.css");
 @import url("framework.css");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -209,7 +210,7 @@ Delete it completely to stop fading
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:900; font-size:10px; line-height:10px;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:'Barlow'; font-weight:900; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
 #mainav{position:relative; margin-bottom:-2px; z-index:999;}
@@ -421,6 +422,16 @@ table a, #comments a{background-color:inherit;}
 /* ------------------------------------------------------------------------------------------------------------ */
 
 
+#backgroundTop {
+	background-image: url("/images/flowerslargest.jpg");
+	background-size: cover;
+	background-position: center center;
+  
+  
+
+}
+
+
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
 @-ms-viewport{width:device-width;}
@@ -489,6 +500,7 @@ table a, #comments a{background-color:inherit;}
 	#latest ul li:nth-last-child(-n+3){margin-bottom:30px;}
 
 	#footer{padding-bottom:50px;}/* Not required, just looks a little better */
+	#backgroundTop{background-image: url("/images/flowersmobile.jpg")}
 }
 
 
@@ -503,12 +515,13 @@ table a, #comments a{background-color:inherit;}
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+	#backgroundTop{background-image: url("/images/flowersmobilesmall.jpg")}
 }
 
 .logoWhite {
-	width: 50px;
+	width: 60px;
 	margin-right: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 }
 
 html {
