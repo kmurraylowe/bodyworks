@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?bf66f745c434cb694018186e56412644") format("truetype"),
+url("./flaticon.woff?bf66f745c434cb694018186e56412644") format("woff"),
+url("./flaticon.woff2?bf66f745c434cb694018186e56412644") format("woff2"),
+url("./flaticon.eot?bf66f745c434cb694018186e56412644#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bf66f745c434cb694018186e56412644#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-skincare:before {
+    content: "\f101";
+}
+.flaticon-facial-treatment:before {
+    content: "\f102";
+}
+.flaticon-legs:before {
+    content: "\f103";
+}
+.flaticon-facial-massage:before {
+    content: "\f104";
+}

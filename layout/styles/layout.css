@@ -527,3 +527,12 @@ table a, #comments a{background-color:inherit;}
 html {
 	scroll-behavior: smooth;
 }
+
+
+.checked {
+	margin-top: 10px;
+	color: rgb(230, 106, 203);
+}
+.services {
+	font-size: 3rem;
+}
