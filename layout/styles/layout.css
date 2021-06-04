@@ -427,10 +427,17 @@ table a, #comments a{background-color:inherit;}
 	background-size: cover;
 	background-position: center center;
   
-  
-
 }
 
+.introText {
+	font-size: 1.2rem;
+	font-family:'Barlow';
+	width: 30vw;
+}
+
+.boldSpan {
+	font-weight: bolder;
+}
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
@@ -441,10 +448,13 @@ table a, #comments a{background-color:inherit;}
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:1140px){
 	.hoc{max-width:1140px;}
+	
 }
 
 @media screen and (min-width:978px) and (max-width:1140px){
 	.hoc{max-width:95%;}
+
+	
 }
 
 
@@ -472,7 +482,14 @@ table a, #comments a{background-color:inherit;}
 
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
+
+	.introText {
+		
+		width: 50vw;
+	}
 }
+
+
 
 @media screen and (max-width:750px){
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
@@ -501,6 +518,11 @@ table a, #comments a{background-color:inherit;}
 
 	#footer{padding-bottom:50px;}/* Not required, just looks a little better */
 	#backgroundTop{background-image: url("/images/lillies.jpg")}
+
+	.introText {
+		
+		width: 60vw;
+	}
 }
 
 
@@ -516,6 +538,10 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
 	#backgroundTop{background-image: url("/images/lillies.jpg")}
+	.introText {
+		
+		width: 70vw;
+	}
 }
 
 .logoWhite {
